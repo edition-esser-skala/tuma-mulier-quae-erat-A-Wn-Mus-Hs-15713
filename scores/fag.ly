@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../definitions.ly"
 #(define option-instrument-name "vl 1")
@@ -8,7 +8,7 @@
   \bookpart {
     \section "Mulier quæ erat"
     \addTocEntry
-    \paper { indent = 2\cm systems-per-page = #7 }
+    \paper { indent = 2\cm page-count = #1 }
     \score {
       <<
         \new Staff {
