@@ -1,11 +1,12 @@
 \version "2.24.0"
 
 #(define option-movement-title-format "title")
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
 
 
 tempoMulier = \tempoMarkup "Larghetto"
+tempoAlleluia = \tempoMarkup "Allegro"
 
 
 \include "notes/cnto.ly"
